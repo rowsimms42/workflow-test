@@ -9,7 +9,7 @@ public class TesterATest {
   @Test
   public void testATest() {
     int num = Tester.TestA();
-    assertThat(num, equalTo(3));
+    assertThat(num, equalTo(6));
   }
 
 }
