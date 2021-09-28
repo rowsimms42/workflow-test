@@ -12,4 +12,10 @@ public class TesterATest {
     assertThat(num, equalTo(6));
   }
 
+  @Test
+  public void testBTest() {
+    int num = Tester.TestA();
+    assertThat(num, equalTo(5));
+  }
+
 }
